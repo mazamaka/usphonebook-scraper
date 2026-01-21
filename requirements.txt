@@ -1,0 +1,4 @@
+nodriver>=0.38
+httpx
+loguru>=0.7.0
+pydantic>=2.0.0

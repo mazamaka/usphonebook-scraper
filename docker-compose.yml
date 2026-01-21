@@ -1,0 +1,9 @@
+services:
+  scraper:
+    build: .
+    container_name: usphonebook-scraper
+    volumes:
+      - ./results:/app/results
+    environment:
+      - DISPLAY=:99
+    shm_size: '2gb'
